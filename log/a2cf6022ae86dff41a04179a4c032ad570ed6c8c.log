@@ -1,0 +1,24 @@
+{"level":"debug","source":"server","source":"PHP","time":"2023-10-15T01:51:55+02:00","message":"Reloading PHP versions"}
+{"level":"debug","source":"server","source":"PHP","time":"2023-10-15T01:51:55+02:00","message":"Using PHP version 8.1.17 (from default version in $PATH)"}
+{"level":"info","source":"server","source":"PHP","php":"8.1.17","path":"C:\\xampp\\php\\php-cgi.exe","port":51635,"time":"2023-10-15T01:51:55+02:00","message":"listening"}
+{"level":"error","source":"server","ip":"127.0.0.1","status":500,"method":"GET","scheme":"https","host":"127.0.0.1:8004","time":"2023-10-15T01:51:58+02:00","message":"/author"}
+{"level":"info","source":"server","ip":"127.0.0.1","status":200,"method":"GET","scheme":"https","host":"127.0.0.1:8004","time":"2023-10-15T01:53:10+02:00","message":"/blog"}
+{"level":"error","source":"server","ip":"127.0.0.1","status":500,"method":"GET","scheme":"https","host":"127.0.0.1:8004","time":"2023-10-15T02:02:32+02:00","message":"/list"}
+{"level":"info","source":"server","ip":"127.0.0.1","status":200,"method":"GET","scheme":"https","host":"127.0.0.1:8004","time":"2023-10-15T02:03:08+02:00","message":"/list"}
+{"level":"warn","source":"server","ip":"127.0.0.1","status":404,"method":"GET","scheme":"https","host":"127.0.0.1:8004","time":"2023-10-15T02:03:08+02:00","message":"/images/Victor-Hugo.jpg"}
+{"level":"warn","source":"server","ip":"127.0.0.1","status":404,"method":"GET","scheme":"https","host":"127.0.0.1:8004","time":"2023-10-15T02:03:08+02:00","message":"/images/william-shakespeare.jpg"}
+{"level":"warn","source":"server","ip":"127.0.0.1","status":404,"method":"GET","scheme":"https","host":"127.0.0.1:8004","time":"2023-10-15T02:03:08+02:00","message":"/images/Taha_Hussein.jpg"}
+{"level":"info","source":"server","ip":"127.0.0.1","status":200,"method":"GET","scheme":"https","host":"127.0.0.1:8004","time":"2023-10-15T02:04:39+02:00","message":"/list"}
+{"level":"warn","source":"server","ip":"127.0.0.1","status":404,"method":"GET","scheme":"https","host":"127.0.0.1:8004","time":"2023-10-15T02:04:40+02:00","message":"/images/Victor-Hugo.jpg"}
+{"level":"warn","source":"server","ip":"127.0.0.1","status":404,"method":"GET","scheme":"https","host":"127.0.0.1:8004","time":"2023-10-15T02:04:40+02:00","message":"/images/william-shakespeare.jpg"}
+{"level":"warn","source":"server","ip":"127.0.0.1","status":404,"method":"GET","scheme":"https","host":"127.0.0.1:8004","time":"2023-10-15T02:04:40+02:00","message":"/images/Taha_Hussein.jpg"}
+{"level":"info","source":"server","ip":"127.0.0.1","status":200,"method":"GET","scheme":"https","host":"127.0.0.1:8004","time":"2023-10-15T02:06:03+02:00","message":"/list"}
+{"level":"warn","source":"server","ip":"127.0.0.1","status":404,"method":"GET","scheme":"https","host":"127.0.0.1:8004","time":"2023-10-15T02:06:03+02:00","message":"/images/Taha_Hussein.jpg"}
+{"level":"warn","source":"server","ip":"127.0.0.1","status":404,"method":"GET","scheme":"https","host":"127.0.0.1:8004","time":"2023-10-15T02:06:03+02:00","message":"/images/Victor-Hugo.jpg"}
+{"level":"warn","source":"server","ip":"127.0.0.1","status":404,"method":"GET","scheme":"https","host":"127.0.0.1:8004","time":"2023-10-15T02:06:03+02:00","message":"/images/william-shakespeare.jpg"}
+{"level":"info","source":"server","ip":"127.0.0.1","status":200,"method":"GET","scheme":"https","host":"127.0.0.1:8004","time":"2023-10-15T02:06:24+02:00","message":"/detailA/1/100"}
+03 Europe/Berlin] [info] Matched route "list".
+[15-Oct-2023 02:06:03 Europe/Berlin] [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET http://127.0.0.1:8000/images/Taha_Hussein.jpg" (from "http://127.0.0.1:8000/list")" at C:\Users\msi\projet1\vendor\symfony\http-kernel\EventListener\RouterListener.php line 135
+[15-Oct-2023 02:06:03 Europe/Berlin] [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET http://127.0.0.1:8000/images/Victor-Hugo.jpg" (from "http://127.0.0.1:8000/list")" at C:\Users\msi\projet1\vendor\symfony\http-kernel\EventListener\RouterListener.php line 135
+[15-Oct-2023 02:06:03 Europe/Berlin] [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET http://127.0.0.1:8000/images/william-shakespeare.jpg" (from "http://127.0.0.1:8000/list")" at C:\Users\msi\projet1\vendor\symfony\http-kernel\EventListener\RouterListener.php line 135
+[15-Oct-2023 02:06:24 Europe/Berlin] [info] Matched route "detailA".

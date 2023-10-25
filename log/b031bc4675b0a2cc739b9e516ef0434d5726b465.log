@@ -1,0 +1,15 @@
+{"level":"debug","source":"server","source":"PHP","time":"2023-10-15T00:35:01+02:00","message":"Reloading PHP versions"}
+{"level":"debug","source":"server","source":"PHP","time":"2023-10-15T00:35:02+02:00","message":"Using PHP version 8.1.17 (from default version in $PATH)"}
+{"level":"info","source":"server","source":"PHP","php":"8.1.17","path":"C:\\xampp\\php\\php-cgi.exe","port":49499,"time":"2023-10-15T00:35:02+02:00","message":"listening"}
+{"level":"warn","source":"server","ip":"127.0.0.1","status":404,"method":"GET","scheme":"https","host":"127.0.0.1:8004","time":"2023-10-15T00:35:21+02:00","message":"/"}
+{"level":"warn","source":"server","ip":"127.0.0.1","status":404,"method":"GET","scheme":"https","host":"127.0.0.1:8004","time":"2023-10-15T00:35:21+02:00","message":"/favicon.ico"}
+ready loaded in Unknown on line 0
+[14-Oct-2023 22:35:02 UTC] PHP Warning:  Module "mbstring" is already loaded in Unknown on line 0
+[14-Oct-2023 22:35:02 UTC] PHP Warning:  Module "exif" is already loaded in Unknown on line 0
+[14-Oct-2023 22:35:02 UTC] PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[14-Oct-2023 22:35:02 UTC] PHP Warning:  Module "pdo_mysql" is already loaded in Unknown on line 0
+[14-Oct-2023 22:35:02 UTC] PHP Warning:  Module "pdo_sqlite" is already loaded in Unknown on line 0
+[14-Oct-2023 22:35:02 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[14-Oct-2023 22:35:02 UTC] PHP Warning:  Module "ftp" is already loaded in Unknown on line 0
+[15-Oct-2023 00:35:21 Europe/Berlin] [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET http://127.0.0.1:8000/"" at C:\xampp\php\www\First\vendor\symfony\http-kernel\EventListener\RouterListener.php line 135
+[15-Oct-2023 00:35:21 Europe/Berlin] [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET http://127.0.0.1:8000/favicon.ico" (from "http://127.0.0.1:8000/")" at C:\xampp\php\www\First\vendor\symfony\http-kernel\EventListener\RouterListener.php line 135

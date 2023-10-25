@@ -1,0 +1,17 @@
+{
+    "dir": "C:\\xampp\\php\\www\\First",
+    "watch": [
+        "C:\\xampp\\php\\php.ini"
+    ],
+    "pid": 22856,
+    "port": 0,
+    "scheme": "",
+    "args": [
+        "C:\\xampp\\php\\php-cgi.exe",
+        "-b",
+        "49499",
+        "-d",
+        "error_log=C:\\Users\\msi\\.symfony5\\log\\b031bc4675b0a2cc739b9e516ef0434d5726b465.log"
+    ],
+    "name": "PHP-CGI"
+}

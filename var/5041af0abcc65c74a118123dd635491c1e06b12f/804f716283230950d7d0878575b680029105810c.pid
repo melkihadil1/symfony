@@ -1,0 +1,15 @@
+{
+    "dir": "C:\\Users\\msi",
+    "watch": null,
+    "pid": 20260,
+    "port": 0,
+    "scheme": "",
+    "args": [
+        "C:\\xampp\\php\\php-cgi.exe",
+        "-b",
+        "62414",
+        "-d",
+        "error_log=C:\\Users\\msi\\.symfony5\\log\\5041af0abcc65c74a118123dd635491c1e06b12f.log"
+    ],
+    "name": "PHP-CGI"
+}

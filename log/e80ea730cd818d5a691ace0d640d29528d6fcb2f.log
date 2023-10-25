@@ -1,0 +1,13 @@
+{"level":"debug","source":"server","source":"PHP","time":"2023-10-14T17:48:14+02:00","message":"Reloading PHP versions"}
+{"level":"debug","source":"server","source":"PHP","time":"2023-10-14T17:48:14+02:00","message":"Using PHP version 8.1.17 (from default version in $PATH)"}
+{"level":"info","source":"server","source":"PHP","php":"8.1.17","path":"C:\\xampp\\php\\php-cgi.exe","port":59063,"time":"2023-10-14T17:48:14+02:00","message":"listening"}
+{"level":"info","source":"server","ip":"127.0.0.1","status":200,"method":"GET","scheme":"https","host":"127.0.0.1:8004","time":"2023-10-14T17:48:28+02:00","message":"/affiche"}
+{"level":"warn","source":"server","ip":"127.0.0.1","status":404,"method":"GET","scheme":"https","host":"127.0.0.1:8004","time":"2023-10-14T17:48:36+02:00","message":"/"}
+{"level":"warn","source":"server","ip":"127.0.0.1","status":404,"method":"GET","scheme":"https","host":"127.0.0.1:8004","time":"2023-10-14T17:49:05+02:00","message":"/showService"}
+{"level":"warn","source":"server","ip":"127.0.0.1","status":404,"method":"GET","scheme":"https","host":"127.0.0.1:8004","time":"2023-10-14T17:49:23+02:00","message":"/showService/name"}
+{"level":"warn","source":"server","ip":"127.0.0.1","status":404,"method":"GET","scheme":"https","host":"127.0.0.1:8004","time":"2023-10-14T17:49:25+02:00","message":"/showService/name"}
+{"level":"warn","source":"server","ip":"127.0.0.1","status":404,"method":"GET","scheme":"https","host":"127.0.0.1:8004","time":"2023-10-14T17:49:33+02:00","message":"/name"}
+{"level":"warn","source":"server","ip":"127.0.0.1","status":404,"method":"GET","scheme":"https","host":"127.0.0.1:8004","time":"2023-10-14T17:50:03+02:00","message":"/showService/test"}
+rnel\EventListener\RouterListener.php line 135
+[14-Oct-2023 17:49:33 Europe/Berlin] [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET http://127.0.0.1:8000/name"" at C:\Users\msi\First\vendor\symfony\http-kernel\EventListener\RouterListener.php line 135
+[14-Oct-2023 17:50:03 Europe/Berlin] [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET http://127.0.0.1:8000/showService/test"" at C:\Users\msi\First\vendor\symfony\http-kernel\EventListener\RouterListener.php line 135

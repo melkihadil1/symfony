@@ -1,0 +1,4 @@
+{"level":"debug","source":"server","source":"PHP","time":"2023-10-24T22:42:30+02:00","message":"Reloading PHP versions"}
+{"level":"debug","source":"server","source":"PHP","time":"2023-10-24T22:42:30+02:00","message":"Using PHP version 8.1.17 (from default version in $PATH)"}
+{"level":"info","source":"server","source":"PHP","php":"8.1.17","path":"C:\\xampp\\php\\php-cgi.exe","port":62414,"time":"2023-10-24T22:42:30+02:00","message":"listening"}
+{"level":"info","source":"server","ip":"127.0.0.1","status":200,"method":"GET","scheme":"https","host":"127.0.0.1:8004","time":"2023-10-24T22:42:44+02:00","message":"/"}
